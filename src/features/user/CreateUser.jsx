@@ -15,7 +15,7 @@ function CreateUser() {
       </p>
 
       <input
-        className="mb-8  w-72 input"
+        className="mb-8 w-72 input"
         type="text"
         placeholder="Your full name"
         value={username}
@@ -24,7 +24,7 @@ function CreateUser() {
 
       {username !== "" && (
         <div>
-          <Button>Start ordering</Button>
+          <Button type="primary">Start ordering</Button>
         </div>
       )}
     </form>
